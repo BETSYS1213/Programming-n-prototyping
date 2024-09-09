@@ -1,0 +1,13 @@
+fname = "Betsy"
+age= 15 # number variable
+fact = True # Boolean Variable
+
+print(16)
+print("We are the best")https://github.com/BETSYS1213
+
+
+print(fname)
+
+question = input("what day is it")
+
+print(fname, "Happy " + question + "!")
