@@ -3,9 +3,7 @@
 #Betsy Sumba
 
 
-question = input("what your first name ")
-
-print( "Hi " + question + "!" )
-
-question = input("what your last name ")
-print( " Hello " + question +  "!")
+question = ("what's your fisrt day")
+question2 = ("what's your last day")
+fullname = question + question
+print(fullname)
