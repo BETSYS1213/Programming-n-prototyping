@@ -1,6 +1,6 @@
 #Betsy Sumba
-9/24/2024
-1,2
+#9/24/2024
+#1,2
 
 fname = input("please give me your first name")
 lname = input("please enter last name")
