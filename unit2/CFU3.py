@@ -22,3 +22,20 @@ print("the substraction of "+ str(num1 ) +" "+ str(num2) + " is "+str(substracti
 
 print(f"the multiplication of {num1} * {num2} is {multiplication}")
 
+
+
+#Betsy Sumba
+#10/11/2024
+#Room Area
+
+
+
+A = int(input("Enter side A: "))
+B = int(input("Enter side B: ")) 
+C = int(input("Enter side C: "))
+D = int(input("Enter side D: "))
+E = int(input("Enter side E: "))
+Rcet = A * B 
+scae = (A - C ) * (D -  (B + E))
+tran = E * 0.5 * (A - C)
+print("Room Area: " + str(Rcet + scae + tran))
