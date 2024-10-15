@@ -18,4 +18,17 @@ def average3(num1, num2, num):
 calc_sum(num1, num2 ,num3)
 average3(num1, num2, num3)
 calc_sum(2,4,5)
-           
+
+
+
+#Betsy Sumba
+#10/15/2024
+#period 1,2
+
+delivery = input ("Did you order food? yes or no")
+
+if delivery == "yes" or delivery == "yes" :
+    print("Great")
+    
+else:
+    print("NO?! so who is cooking?")
