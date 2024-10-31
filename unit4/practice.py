@@ -14,9 +14,9 @@ for x in range (10,71,10):
 #10/30/2024
 #1 and 2 
 #CFU12
-def version1():
+def v1():
     password = "simonsnyc"
-userInput = input("Enter Passcode: ")
+    
 
 while password != userInput :
     print("Wrong Password!")
@@ -24,32 +24,38 @@ while password != userInput :
 
 print("Correct! You may enter..") 
     
-#version1()
+#v1()
 
-def version2():
+def v2():
     password = "simonsnyc"
     userInput = input("Enter Passcode: ")
-    num_guesses = 0
+    i = 0
     
 
-while password != userInput and num_guesses < 3 :
+while password != userInput and i < 2 :
     
     print("Wrong Password!")
+    i +=1
     userInput = input("Enter Passcode: ")
-    num_guesses += 1
- if password == "simonsnyc":
+if password == userInput:
     print("Correct! You may enter..")
     
-else:
-    print("Wrong Password!")
+
     
-version2()    
+#version2()
+def main():
+    version = input("choose 1 or 2")
+    if version == "1":
+        v1()
+   
+
+
+        
+    elif version == "2":
+        v2()
+    else:
+        print("that isn't a choice")
+        
+main()        
     
     
-
-
-
-
-
-
-
