@@ -2,6 +2,7 @@
 import simplegui
 #betsy Sumba
 #CFU project 
+#12/2/2024
 
 frame = simplegui.create_frame("Thanksgiving Drawing", 600, 400)
 # Draw handler function
