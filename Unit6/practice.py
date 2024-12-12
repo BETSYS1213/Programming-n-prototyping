@@ -1,25 +1,22 @@
-
 #Betsy Sumba
-#12/11/2024
-#CFU 16
 #1-2
+#CFU 14
 
 import simplegui
+import random
+#eyes
 def draw_handler(canvas):
-    canvas.draw_circle((100, 95), 80, 3, "Black", "pink")
-    #eyes
-    canvas.draw_circle((65, 90), 25, 3, "black", "white")
-    canvas.draw_circle((140,90), 25, 3, "black" , "white")
-    canvas.draw_circle((70,90),10,3, "black", "black")
-    canvas.draw_circle((131,90),10,3,"black" , "black")
+     canvas.draw_line([100, 100], [100, 10], 5, "black")
+     canvas.draw_line([10, 100], [10, 10], 5, "black")
     #mouth
-    canvas.draw_circle((100,150), 5, 3, "black", "black")
-    canvas.draw_circle((120,142), 5, 3, "black", "black")
-    canvas.draw_circle((85,142), 4, 3, "black" , "black")
+     canvas.draw_line([20, 125], [36, 200], 5, "black")
+     canvas.draw_line([90,145], [38,200], 5, "blacl")
+    
+
     
     
-   
-frame = simplegui.create_frame("CFU16 Happy circles", 200, 200)
-frame.set_canvas_background("white")
+
+frame = simplegui.create_frame("Lines", 200, 200)
+frame.set_canvas_background("White")
 frame.set_draw_handler(draw_handler)
 frame.start()
